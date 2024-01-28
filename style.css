@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding-left: 0;
+  background-image: url(Gambar/Keyboar1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav .container button {
+  background-color: rgb(197, 177, 177);
+}
+
+section .container a img {
+  width: 300px;
+  transition: 1.6s;
+}
+
+section .container a:hover img {
+  transform: scale(1.1);
+}
+
+/* ukuran Tablet */
+
+/* @media screen and (max-width: 768px) {
+  img {
+    display: flex;
+    position: relative;
+    margin-left: -40px;
+  }
+  .col-md-4 {
+    position: relative;
+    margin-left: 120px;
+  }
+} */
+/* ukuran Ponsel */
+
+/* @media screen and (max-width: 500px) {
+  img {
+    display: flex;
+    position: relative;
+    margin-left: 40px;
+  }
+  .col-md-4 {
+    position: relative;
+    margin-left: 100px;
+  }
+  p {
+    position: relative;
+    margin-left: 24px;
+  }
+  a button {
+    position: relative;
+    margin-left: 75px;
+  }
+} */
